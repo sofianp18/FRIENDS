@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+
+body {background-image:url("../IMG/Sillon Friends.jpg"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; cursor: url("../IMG/Cursor.png"), auto;}
+.wrapper{background-color: rgba(255,255,255,0.60); width: 1000px; margin-left: auto; margin-right: auto; text-align: center; padding: 30px; box-sizing: border-box;}
+
+.footer {background-color:rgba(10,95,64,255);width: 1000px;height: 60px; color: white; line-height: 60px; margin-left: auto; margin-right: auto; text-align: center;}
+
+.nav{background-color: rgba(10,95,64,255); width: 1000px; height:150px;text-align: center;color: white; margin-left: auto; margin-right: auto;}
+
+.nav ul {list-style-type: none;}
+
+.nav li {width: 166.6px;float: left;}
+
+.secciones {background-color: rgba(255,255,255,0.90);width: 700px; padding: 70px; margin:50px auto;}
+
+.secciones p {text-align: justify;font-family: Montserrat;} 
+
+h2 {color: rgba(10,95,64,255); font-family: FuenteFriends;}
+
+@font-face {src:url("../SRC/GABRWFFR.ttf"); font-family:FuenteFriends}
+/* Font face permite colocar fuentes de fantasia descargadas, y con el font family le asignas un nombre para utilizarla */
+
+a{ text-decoration:none; color: white; }
+
+a:hover {color:rgba(128,113,198,1.00);}
+
+.boton { position:fixed; right:30px; top:500px; }
+
+.RaG {position:absolute; right:100px; bottom:85px;}
+
+/*Transformaciones*/
+.RaG:hover {transform: translateX(100px);transition:linear 5s;}
+/* La transición linear no tiene flexibilización, es decir, la velocidad es contante */
+
+.MG {position:absolute; left:100px; bottom:-248px;}
+
+.MG:hover {transform: rotate(360deg);transition: ease-in 5s;}
+
+/* ease-in dice que inicia la tranformación lentamente y termina a toda velocidad*/
+
+
+.PB {position:absolute; right:100px; bottom:-600px;}
+
+.PB:hover {transform: skew(30deg);transition: ease-out 5s;}
+
+/* ease-out inicia la transformación a toda velocidad y termina lentamente*/
+
+
+.CB {position:absolute; left:100px; bottom:-950px;}
+
+.CB:hover {transform: rotate(360deg) scale(0.80);transition: ease-in-out 5s;}
+
+/* ease-in-out comenzará lento, luego rapido y termina lento*/
+
+
+.JT {position:absolute; right:100px; bottom:-1282px;}
+
+.JT:hover {transform: translate(100px,50px);transition: ease-in-out 5s;}
+
+/* las tranformaciones de rotate y skew se manejan en grados, mientras que translate en px*/
+
+
+.RoG {position:absolute; left:100px; bottom:-1615px;}
+.RoG:hover {transform: translateX(30px);transition:linear 2s;}
